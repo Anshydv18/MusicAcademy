@@ -31,7 +31,8 @@ export default function FeaturedCourses(){
             >
             {
               courses.map((course:Course)=>(
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center'
+                key={course.id}>
                     <BackgroundGradient
                     className='flex flex-col rounded-3xl dark:bg-zinc-950 overflow-hidden h-full max-w-sm'
                     >
