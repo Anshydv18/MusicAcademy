@@ -1,2 +1,2 @@
-# A introduction the UI  library and basic of typescript
-with nextjs also
+# A introduction to the UI  library and basic of typescript
+# with next js (Aceternity lib)
