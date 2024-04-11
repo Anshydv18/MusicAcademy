@@ -123,7 +123,7 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations();
-  }, []);
+  });
 
   const handleAnimations = () => {
     if (!ref.current) return;
